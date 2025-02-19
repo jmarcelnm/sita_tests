@@ -1,0 +1,26 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs/
+*.log
+
+# Testing coverage
+coverage/
+
+# Environment variables
+.env
+
+# Docker-related files
+dist/
+.dockerignore
+
+# IDE and system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Other
+package-lock.json
