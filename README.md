@@ -40,30 +40,7 @@ You work for the DMV. You have a specific, sequential way of generating new lice
 
 The pattern overview looks a bit like the following:
 
-000000
-000001
-...
-999999
-00000A
-00001A
-...
-99999A
-00000B
-00001B
-...
-99999Z
-0000AA
-0001AA
-...
-9999AA
-0000AB
-0001AB
-...
-9999ZZ
-000AAA
-001AAA
-...
-ZZZZZZ
+000000 -> 000001 -> ... -> 999999 -> 00000A -> 00001A -> ... -> 99999A -> 00000B -> 00001B -> ... -> 99999Z -> 0000AA -> 0001AA -> ... -> 9999AA -> 0000AB -> 0001AB -> ... -> 9999ZZ -> 000AAA -> 001AAA -> ... -> ZZZZZZ
 
 The goal is to write a function that takes some index n as a parameter and returns the nth element in this license plate sequence.
 
